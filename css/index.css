@@ -1,0 +1,104 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+.search{
+    padding: 0.17rem 0.22rem;
+    height: 0.6rem;
+}
+.search > span{
+    float: left;
+    font-size: 0.28rem;
+    color: #4ebbfe;
+    line-height: 0.6rem;
+}
+.search > a{
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    border: 0.01rem solid #046b80;
+    border-radius: 0.3rem;
+}
+.iconfont{
+    font-size: 25px;
+    color: #4ebbfe;
+}
+.banner{
+    width: 100%;
+    height:3rem ;
+}
+/**/
+.category{
+    height: 6.9rem;
+    padding: 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.category > li {
+    width: 2.35rem;
+    height: 1.9rem;
+}
+.category > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category > li > a >img{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.category > li > a >span{
+    /*width: 0.98rem;*/
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #8e9397;
+    margin-top: 0.5rem;
+}
+/**/
+.footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #f1f9ff;
+    /*opacity: 0.5;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 0.2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.footer > li {
+    width: 0.55rem;
+    height: 0.85rem;
+    opacity: 0.6;
+}
+.footer > li.hot{
+    opacity: 1;
+}
+.footer > li > a{
+    width: 100%;
+    height: 100%;
+}
+.footer > li > a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.footer > li > a > span{
+    width: 0.47rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #59c3fe;
+    margin-top: 0.5rem;
+}
