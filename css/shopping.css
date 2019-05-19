@@ -47,7 +47,8 @@ header{
 }
 .contend > li{
     display: flex;
-    margin-bottom: 0.22rem;
+    padding: 0.32rem 0;
+    border-bottom: 0.02rem solid rgba(0,0,0,0.05);
 }
 .contend > li >.img{
     width: 1.74rem;
@@ -64,14 +65,14 @@ header{
     width: 1.19rem;
     height: 1.25rem;
 }
-.contend > li >  i{
+.er i{
     color: #e7f6ff;
     font-size: 0.24rem;
     margin-right: 0.28rem;
     display: flex;
     margin-top: 0.76rem;
 }
-.contend > li >  i.hot{
+.er i.hot{
     color: #37e06f;
     font-size: 0.24rem;
     margin-right: 0.28rem;
@@ -100,11 +101,26 @@ header{
     color: #36a8fe;
     font-size: 0.26rem;
     float: right;
+    margin: 0 0.12rem;
 }
 .contend > li > .right > .price{
     color: #8e9397;
     opacity: 0.8;
     font-size: 0.26rem;
+}
+/**/
+.select{
+    position: fixed;
+    left: 0;
+    bottom: 1.8rem;
+    padding: 0 0.22rem;
+}
+.select >span{
+    font-size: 0.24rem;
+    color: #3bacfe;
+    position: fixed;
+    left: 0.7rem;
+    bottom: 1.8rem;
 }
 /**/
 .footer{
