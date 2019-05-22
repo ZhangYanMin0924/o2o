@@ -12,7 +12,9 @@ header{
     align-items: center;
     box-sizing: border-box;
 }
-
+header > a > i{
+    color: #4ebbfe;
+}
 /*.iconfont{*/
 /*    font-size: 0.22rem;*/
 /*    color: #36a8fe;*/

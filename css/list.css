@@ -12,6 +12,9 @@ header{
     align-items: center;
     box-sizing: border-box;
 }
+header > a > i{
+    color: #4ebbfe;
+}
 .order{
     height: 0.88rem;
     padding: 0 0.8rem;
