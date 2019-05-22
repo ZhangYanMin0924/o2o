@@ -374,7 +374,7 @@ header > a > i{
     linear-gradient(#3bacfe, #3bacfe);
     box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
     border-radius: 0.3rem;
-    margin-right: 0.3rem;
+    /*margin-right: 0.3rem;*/
 }
 .footer > .two > a > .buy{
     background-color: #3bacfe;
